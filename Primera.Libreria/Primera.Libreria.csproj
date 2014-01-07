@@ -40,9 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfiguracionOperacion.cs" />
+    <Compile Include="IOperacion.cs" />
     <Compile Include="Multiplicacion.cs" />
     <Compile Include="OperacionFabrica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resta.cs" />
     <Compile Include="Suma.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
